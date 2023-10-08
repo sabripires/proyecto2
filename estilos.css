@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header__flex{
+    background-color:rgb(52, 58, 64);
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.img__logo{
+ width: 20%;
+ align-items: center;
+}
+.navegador{
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3.5rem;
+    
+}
+
+.link{
+ text-decoration: none;
+ color: white;
+ font-size: 1 rem;
+
+}
+.links{
+    color: green;
+}
+.img_main{
+    width: 100%;
+}
+.contenedor_central{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.texto,h1{
+    text-align: end;
+}
+
+.texto{
+    position: absolute;
+    bottom: 35%;
+    left: 45%;
+    color: white;
+    text-align: center;
+}
+#lorador{
+    
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin: 40px;
+    border: 50px;
+}
+.contendor_tarjetas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagenIzq{
+    background-image: url("../assets/imagenes/honolulu.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+.sectionDiv{
+    display: flex;
+    height: 70vh;
+    
+}
+.contenidoDer{
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgb(52, 58, 64);
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.section_tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contendor_tarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetas{
+    width: 80%;
+    display: flex;
+    background-color: rgb(233, 225, 240);
+    
+}
+.final{
+    background-color: rgb(70, 66, 98);
+    padding-inline: 20%;
+    height: 4rem;
+    align-items: center;
+    text-decoration-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
